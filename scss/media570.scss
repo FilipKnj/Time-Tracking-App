@@ -1,0 +1,24 @@
+@media screen and (min-width:570px) {
+    
+    .container{
+        display: grid !important;
+        grid-template-columns: 48% 48%;
+    }
+
+    .menu-card{
+        grid-column: 1 / span 2;
+    }
+
+    .regular-card{
+
+        .property-card{
+        
+            .row-2{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start !important;
+                justify-content: center !important ;
+            }
+        }
+    }
+}
